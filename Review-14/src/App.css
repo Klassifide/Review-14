@@ -1,9 +1,27 @@
 body{
-  font-family: Poppins;
   background-color: #f0f0f0;
 }
 
-.Money{
-  display:flex;
-  
+.Box{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  border: solid 10px lightsteelblue;
+  border-radius: 10%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+p{
+  color: goldenrod;
+}
+
+h1{
+  color: rgb(50, 169, 39);
+}
+img{
+  padding:10px;
+  max-height: 50px;
+  max-width:50px;
 }
